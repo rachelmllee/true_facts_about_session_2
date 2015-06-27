@@ -1,13 +1,16 @@
-<h1>People</h1>
+<h1>True Facts About Session 2</h1>
 
-<%= link_to 'New', new_person_path %>
+<% num = Person.first.id + rand(Person.count) %>
+
+<% link = "/people/#{num}/facts" %>
+
+<%= link_to 'Guess', link %>
 
 <ul>
 	<% @people.each do |person| %>
-		<p><%= person.name %> |
-		<%= link_to 'Show', person_path(person) %> |
-		<%= link_to 'Edit', edit_person_path(person) %> |
-		<%= link_to 'Delete', person_path(person), method: :delete, 
-		data: { confirm: "Are you sure you want to delete #{person.name}?"} %></p>
+		<p><%= link_to image_tag(person.image_location), person_path(person) %> 
+		</p>
 	<% end %>
 </ul>
+
+<%= link_to 'Add Person', new_person_path %>
