@@ -1,0 +1,15 @@
+<h1><%= @person.name %></h1>
+
+<%= @person.image_location %>
+
+<p>Gender: <%= @person.gender %></p>
+
+<h2>Facts</h2>
+<%= render @person.facts %>
+
+<h3>Add a fact:</h3>
+<%= render 'facts/form' %>
+
+<%= link_to 'Edit', edit_person_path(@person) %> |
+<%= link_to 'Delete', person_path(@person), method: :delete %> |
+<%= link_to 'Back', people_path %>
