@@ -8,10 +8,10 @@ Fact.create! text: "", person_id: person.id
 Fact.create! text: "", person_id: person.id
 
 # Alec Ortiz
-person = Person.create! name: "Alec Ortiz", gender: "Male", image_location: ""
-Fact.create! text: "", person_id: person.id
-Fact.create! text: "", person_id: person.id
-Fact.create! text: "", person_id: person.id
+person = Person.create! name: "Alec Ortiz", gender: "Male", image_location: "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/8/005/03a/308/02a92f5.jpg"
+Fact.create! text: "I have a titanium screw in my wrist", person_id: person.id
+Fact.create! text: "I have been on over 100 airplanes", person_id: person.id
+Fact.create! text: "In the womb I had a twin who was smaller than me and had displayed by the time I was born so I guess I must have consumed him", person_id: person.id
 
 # Alexis Gillis
 person = Person.create! name: "Alexis Gillis", gender: "Female", image_location: ""
@@ -99,7 +99,7 @@ Fact.create! text: "", person_id: person.id
 
 # Khangwelo Malotsha
 person = Person.create! name: "Khangwelo", gender: "Female", image_location: ""
-Fact.create! text: "", person_id: person.id
+Fact.create! text: "I learned how to ride a bike this year", person_id: person.id
 Fact.create! text: "", person_id: person.id
 Fact.create! text: "", person_id: person.id
 
@@ -111,9 +111,9 @@ Fact.create! text: "", person_id: person.id
 
 # Melissa Zhou
 person = Person.create! name: "Melissa Zhou", gender: "Female", image_location: ""
-Fact.create! text: "", person_id: person.id
-Fact.create! text: "", person_id: person.id
-Fact.create! text: "", person_id: person.id
+Fact.create! text: "I'm allergic to cats", person_id: person.id
+Fact.create! text: "I was on the Bhangra (Indian dance) team at school", person_id: person.id
+Fact.create! text: "I always eat around my food and save the middle for last", person_id: person.id
 
 # Praise Ndebele
 person = Person.create! name: "Praise Ndebele", gender: "Male", image_location: ""
@@ -123,7 +123,7 @@ Fact.create! text: "", person_id: person.id
 
 # Rachel Lee
 person = Person.create! name: "Rachel Lee", gender: "Female", image_location: "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/7/005/095/00a/23de406.jpg"
-Fact.create! text: "", person_id: person.id
+Fact.create! text: "I've completed two half marathons", person_id: person.id
 Fact.create! text: "", person_id: person.id
 Fact.create! text: "", person_id: person.id
 
@@ -147,9 +147,9 @@ Fact.create! text: "", person_id: person.id
 
 # Robert Lee
 person = Person.create! name: "Robert Lee", gender: "Male", image_location: ""
-Fact.create! text: "", person_id: person.id
-Fact.create! text: "", person_id: person.id
-Fact.create! text: "", person_id: person.id
+Fact.create! text: "I hate the taste of ginger", person_id: person.id
+Fact.create! text: "I have swum with penguins", person_id: person.id
+Fact.create! text: "I was once a tribute for District 5", person_id: person.id
 
 # Sammy Gonzales-Luna
 person = Person.create! name: "Sammy Gonzales-Luna", gender: "Male", image_location: ""
@@ -177,8 +177,8 @@ Fact.create! text: "", person_id: person.id
 
 # Tebogo Rosah
 person = Person.create! name: "Tebogo Rosah", gender: "Female", image_location: ""
-Fact.create! text: "", person_id: person.id
-Fact.create! text: "", person_id: person.id
+Fact.create! text: "I design clothes and am launching my online store soon", person_id: person.id
+Fact.create! text: "I've travelled to as many countries as my age", person_id: person.id
 Fact.create! text: "", person_id: person.id
 
 # Therveshan Moodley
