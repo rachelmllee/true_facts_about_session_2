@@ -10,6 +10,60 @@
  * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
  * file per style scope.
  *
+ *= require bootstrap_and_overrides
+ *= require rails_bootstrap_forms
  *= require_tree .
  *= require_self
  */
+
+ h1 {
+ 	font-family: 'Indie Flower', cursive;
+ }
+ h2 {
+ 	font-family: 'Londrina Shadow', cursive;
+ }
+ li {
+ 	font-size: 30px;
+ 	display: inline;
+ }
+ ul {
+ 	list-style-type: none;
+ 	padding: 10px;
+ }
+ div {
+ 	outline: 0;
+ }
+ img {
+ 	height: 300px;
+ 	width: 340px;
+ 	border-radius: 50%;
+ 	overflow: hidden;
+ }
+ body {
+ 	font-family: 'Open Sans Condensed', sans-serif;
+ 	background-color: #F5F5F5;
+ 	text-align: center;
+ }
+ .toggler {
+ 	margin-left: auto;
+ 	margin-right: auto;
+ 	outline: 0;
+
+ }
+ .effect{
+ 	border-radius: 0;
+ 	border: none;
+ 	outline: 0;
+ }
+ .error_message {
+	border: 1px solid;
+	margin: 10px 0px;
+	padding:15px 10px 15px 50px;
+	background-position: 10px center;
+	color: #D8000C;
+	background-color: #FFBABA;
+}
+.facts {
+	font-family: 'Indie Flower', cursive;
+	font-size: 20px;
+}

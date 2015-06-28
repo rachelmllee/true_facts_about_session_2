@@ -1,3 +1,55 @@
-<%= render @person.facts %>
+<head>
+	<script>
+		$(function() {
+    // run the currently selected effect
+    function runEffect() {
+    	var options = {};   
 
-<%= @person.name %>
+      // run the effect
+      $( "#effect" ).show();
+  };
+
+    // set effect from select menu value
+    $( "#button" ).click(function() {
+    	runEffect();
+    });
+
+    $( "div" ).css('border', 'none');
+
+
+    $( "#effect" ).hide();
+});
+	</script>
+</head>
+
+<body>
+
+	<h1>Guess Who...</h1>
+
+	<div class="facts"><%= render @person.facts %></div>
+
+	<h2>Gender: <%= @person.gender %></h2>
+
+	<% url = @person.image_location %>
+
+	<% usable_url = "#{url}" %>
+
+	<div class="toggler">
+		<button id="button" class="ui-state-default ui-corner-all">Click here to see!</button>
+		<div id="effect" class="ui-widget-content ui-corner-all">
+		<img id="image" src=<%="#{usable_url}" %> alt="" />
+			<p> <%= @person.name %></p>
+		</div>
+	</div>
+
+	<% num = Person.first.id + rand(Person.count) %>
+
+	<% link = "/people/#{num}/facts" %>
+
+	<br>
+
+	<%= link_to 'Guess Again!', link %> | 
+
+	<%= link_to 'Home', people_path %>
+
+</body>

@@ -4,13 +4,12 @@
 
 <% link = "/people/#{num}/facts" %>
 
-<%= link_to 'Guess', link %>
+<h2><%= link_to 'Guess', link %>    |    
+<%= link_to 'Add Person', new_person_path %></h2>
 
 <ul>
 	<% @people.each do |person| %>
-		<p><%= link_to image_tag(person.image_location), person_path(person) %> 
-		</p>
+		<li><%= link_to image_tag(person.image_location), person_path(person) %></li>
 	<% end %>
 </ul>
 
-<%= link_to 'Add Person', new_person_path %>
