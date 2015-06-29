@@ -3,9 +3,9 @@ Fact.delete_all
 
 # Aaron Fuchs
 person = Person.create! name: "Aaron Fuchs", gender: "Male", image_location: "https://scontent.xx.fbcdn.net/hphotos-prn2/t31.0-8/1149430_10100299599192614_578331752_o.jpg"
-Fact.create! text: "", person_id: person.id
-Fact.create! text: "", person_id: person.id
-Fact.create! text: "", person_id: person.id
+Fact.create! text: "I was at one point in my life, the smallest human in the entire school", person_id: person.id
+Fact.create! text: "When I landed in America for college, I did not know a single human in the whole country", person_id: person.id
+Fact.create! text: "I was chased by a warthog when I was 5, it was hella scary", person_id: person.id
 
 # Alec Ortiz
 person = Person.create! name: "Alec Ortiz", gender: "Male", image_location: "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/8/005/03a/308/02a92f5.jpg"
@@ -15,9 +15,9 @@ Fact.create! text: "In the womb I had a twin who was smaller than me and had dis
 
 # Alexis Gillis
 person = Person.create! name: "Alexis Gillis", gender: "Female", image_location: "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/1/005/061/0bd/239657e.jpg"
-Fact.create! text: "", person_id: person.id
-Fact.create! text: "", person_id: person.id
-Fact.create! text: "", person_id: person.id
+Fact.create! text: "I love to wake board", person_id: person.id
+Fact.create! text: "I am allergic to cats", person_id: person.id
+Fact.create! text: "My middle name is Talya", person_id: person.id
 
 # Amanda Halacy
 person = Person.create! name: "Amanda Halacy", gender: "Female", image_location: "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/5/005/058/167/17de6b4.jpg"
@@ -45,9 +45,9 @@ Fact.create! text: "I ran the Penn Relays", person_id: person.id
 
 # Daniel Zhao
 person = Person.create! name: "Daniel Zhao", gender: "Male", image_location: "https://scontent.xx.fbcdn.net/hphotos-xpf1/t31.0-8/11058604_10152893765293585_4657209686101550114_o.jpg"
-Fact.create! text: "", person_id: person.id
-Fact.create! text: "", person_id: person.id
-Fact.create! text: "", person_id: person.id
+Fact.create! text: "I make really good dumplings", person_id: person.id
+Fact.create! text: "I AM A DUMPLING", person_id: person.id
+Fact.create! text: "I dream and the world trembles", person_id: person.id
 
 # Emily Trojan
 person = Person.create! name: "Emily Trojan", gender: "Female", image_location: "https://scontent.xx.fbcdn.net/hphotos-xpf1/v/t1.0-9/10009808_10200834795712050_8636801_n.jpg?oh=29c0e3b782171df62a4dfa473f64cb60&oe=562DB963"
@@ -141,9 +141,9 @@ Fact.create! text: "I own 14 different pocket knives", person_id: person.id
 
 # Robert Krabek
 person = Person.create! name: "Robert Krabek", gender: "Male", image_location: "https://scontent.xx.fbcdn.net/hphotos-xtp1/t31.0-8/11060895_10152967017484475_7762409851043634286_o.jpg"
-Fact.create! text: "", person_id: person.id
-Fact.create! text: "", person_id: person.id
-Fact.create! text: "", person_id: person.id
+Fact.create! text: "I have dead persons hamstring where I used to have an ACL", person_id: person.id
+Fact.create! text: "I never learned to drive", person_id: person.id
+Fact.create! text: "I've eaten snake", person_id: person.id
 
 # Robert Lee
 person = Person.create! name: "Robert Lee", gender: "Male", image_location: "https://scontent.xx.fbcdn.net/hphotos-xpa1/v/t1.0-9/10247417_10153994633535581_1589428203_n.jpg?oh=13e387bfa84db80ea15f915e49594f47&oe=562D06C4"
@@ -195,6 +195,6 @@ Fact.create! text: "", person_id: person.id
 
 # Wesley Nyamana
 person = Person.create! name: "Wesley Nyamana", gender: "Male", image_location: "https://scontent.xx.fbcdn.net/hphotos-xfa1/t31.0-8/1979400_10152501063088140_8248882752727697894_o.jpg"
-Fact.create! text: "", person_id: person.id
-Fact.create! text: "", person_id: person.id
-Fact.create! text: "", person_id: person.id
+Fact.create! text: "I don't like chocolate", person_id: person.id
+Fact.create! text: "I played rugby", person_id: person.id
+Fact.create! text: "I have spent 7 years in Cape Town", person_id: person.id
